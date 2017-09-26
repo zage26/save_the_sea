@@ -8,6 +8,10 @@ body {
 	height: 85px;
 }
 
+#red {
+	color: red;
+}
+
 header {
 	position: fixed;
 	z-index: 1;
@@ -77,7 +81,7 @@ footer {
 	transition: background 1.5s;
 	color:white;
 	border:solid 1px;
-	overflow: auto;
+	/*overflow: auto;*/
 	float: right;
 }
 
@@ -88,10 +92,10 @@ footer {
 
 .image {
 	position: relative;
-	width: 100%;
+/*	width: 100%;*/
 }
 
-#title {
+.title {
 	position: absolute;
 	color: white;
 	top: 35%;
@@ -100,3 +104,38 @@ footer {
 	font-family: 'Abril Fatface', cursive;
 	transform: translate(-50%, -50%);
 }
+
+.donate_bg {
+	opacity: 0.6;
+}
+
+.phrase {
+	position: absolute;
+	color: white;
+	top: 10%;
+	left: 50%;
+	width: 90%;
+	font-size: 7vw;
+	font-family: 'Abril Fatface', cursive;
+	transform: translate(-50%, -50%);
+}
+
+.form {
+	position: absolute;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	top: 33%;
+	width: 60%;
+	left: 20%;
+	font-size: 3.1vw;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
