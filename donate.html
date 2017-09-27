@@ -1,39 +1,52 @@
+<!-- By: Zage Strassberg-Phillips, Period 5, Web Development -->
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="shortcut ico" href="waves.ico">
+<!-- Icon -->
+	<link rel="shortcut icon" href="waves.ico">
+<!-- Title -->
 	<title>Save the Sea/Donate</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poiret+One|Shadows+Into+Light|Tangerine|Annie+Use+Your+Telescope|Fredericka+the+Great|Nothing+You+Could+Do|Sue+Ellen+Francisco|Zeyada" rel="stylesheet">
 </head>
 <body>
-	<header class="main">
-		<img id="hashtag" src="waves.ico" width="100px">
-		<p id="hashtag">#savethesea</p>
+<!-- Header -->
+	<header class="main white white_space">
+		<img class="hashtag" src="waves.ico" width="100px">
+		<p class="hashtag">#savethesea</p>
 		<div>
-			<a href="donate.html"><p class="buttons">Donate</p></a>
-			<a href="https://github.com/zage26/save_the_sea"><p class="buttons">Source Code</p></a>
-			<a href="about.html"><p class="buttons">About Us</p></a>
-			<a href="index.html"><p class="buttons">Home</p></a>
+			<a href="donate.html"><p class="buttons white">Donate</p></a>
+			<a href="https://github.com/zage26/save_the_sea"><p class="buttons white">Source Code</p></a>
+			<a href="about.html"><p class="buttons white">About Us</p></a>
+			<a href="index.html"><p class="buttons white">Home</p></a>
 		</div></a>
 	</header>
-	<section id="white_space"></section>
+	<section class="white_space"></section>
+<!-- Background Image -->
 	<section class="image">
-		<img class="donate_bg" src="/Users/Zage/Desktop/save_the_sea/images/donate.png" alt="Ocean Waves" title="Ocean Waves" style="width:100%">
-		<p class="phrase">SAVE OUR OCEANS TODAY.</p>
-		<form class="form" action="http://www.example.com/" method="post">
+		<img src="/Users/Zage/Desktop/save_the_sea/images/donate.png" alt="Ocean Waves" title="Ocean Waves" style="width:100%">
+		<!-- text -->
+		<p id="phrase" class="white">SAVE OUR OCEANS TODAY.</p>
+<!-- Form -->
+		<form id="form" class="white" action="http://www.example.com/" method="post">
+<!-- Name -->
 			<label for="name">Name: </label>
 			<input id="name" type="text" name="name">
 			<br><br>
+<!-- Email -->
 			<label for="email">Email: </label>
 			<input id="email" type="text" name="email">
 			<br><br>
+<!-- Phone Number-->
 			<label for="number">Phone Number: </label>
 			<input id="number" type="number" name="number">
 			<br><br>
+<!-- Credit Card Number -->
 			<label for="credt">Credit Number: </label>
 			<input id="credit" type="number" name="credit">
 			<br><br>
+<!-- Donation -->
 			<label for="donation">Donation: </label>
 			<select id="donation" name="donation" form="donation">
 				<option value="$100">$50</option>
@@ -43,6 +56,7 @@
 				<option value="$300">$300</option>
 			</select>
 			<br><br>
+<!-- NewsLetter -->
 			<label for="rad">*Sign up for our news letter? </label>
 			<input id="rad" type="radio" name="rad">Yes
 			<input id="rad" type="radio" name="rad">No
@@ -50,7 +64,8 @@
 			<input type="submit" name="Donate" style="width: 10vw">
 		</form>
 	</section>
-	<footer>
+<!-- Footer -->
+	<footer class="white">
 		<p>Email to zagephillips@gmail.com with any concerns or questions</p>
 	</footer>
 </body>
