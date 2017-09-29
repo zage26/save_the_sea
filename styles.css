@@ -63,7 +63,7 @@ footer {
 	width: 100%;
 	height: 40px;
 	background: -webkit-linear-gradient(top, #BADBF4  , #8BBCE1, #48A0E3);
-	font-size: 10px;
+	font-size: 11.5px;
 	text-align: center;
 	font-family: 'Sue Ellen Francisco', cursive;
     position: absolute;
@@ -160,6 +160,16 @@ footer {
 	font-family: 'Poiret One', cursive;
 	font-size: 2.6vw;
 	color:#8BBCE1;
+}
+
+.two {
+	text-align: center;
+	display:table-cell;
+	padding: 2%;
+	width: 50%;
+	font-family: 'Poiret One', cursive;
+	font-size: 2.6vw;
+	color:#8BBCE1;	
 }
 
 /*==========================================================*/
